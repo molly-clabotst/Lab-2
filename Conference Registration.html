@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Conference for Dogs</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Arvo|Lobster|Major+Mono+Display|Open+Sans+Condensed:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Conf%20Reg.css">
+</head>
+<body class="m-5">
+<h1 >
+    Conference for Dogs
+</h1>
+<h2 >
+    Dogs only. No Humans allowed.
+</h2>
+<div class="row">
+    <div class="col-md-4">
+        <p></p>
+    </div>
+<div class="col-md-4">
+<form>
+    <div class="titleWrap">
+    <p class="form-text">
+    <br><label for="username">Name </label>
+        <input id="username" name="username" type="text" required maxlength="70"
+               class="form-control">
+    <br><label for="password">Password</label>
+        <input id="password" name="password" type="password" required
+               class="form-control">
+    <br><label for="email">Email</label>
+    <input id="email" name="email" type="email" required class="form-control">
+
+    <br> <label for="t-size">Enter your T-shirt size</label>
+    <select required id="t-size" name="t-size" class="form-control">
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+    </select>
+
+    <br><label for="DOB">Date of Birth</label>
+    <input id="DOB" name="DOB" type="date" required class="form-control">
+
+
+    <br><label>Would you like to receive emails from our conference sponsors?</label>
+    <div class="form-check">
+        <input id="yes" name="contact consent" class="form-check-input" type="radio" required>
+        <label for="yes">Yes</label>
+    </div>
+    <div class="form-check">
+        <input id="no" name="contact consent" class="form-check-input" type="radio">
+        <label for="no">No</label>
+    </div>
+
+    <br><label>What time of day are you attending our conference?</label>
+    <div class="form-check">
+        <input id="morning" name="morning" class="form-check-input" type="checkbox">
+        <label for="morning">Morning</label>
+    </div>
+    <div class="form-check">
+        <input id="afternoon" name="afternoon" class="form-check-input" type="checkbox">
+        <label for="afternoon">Afternoon</label>
+    </div>
+    <br><label for="specialRequests">Special Requests</label>
+    <textarea id="specialRequests" name="specialRequests" class="form-control" rows="7" cols="70"></textarea>
+    </p>
+    </div>
+    <div class="wrapper">
+        <input name="submitButton" class="btn btn-info mt-5" type="submit" value="RSVP">
+    </div>
+
+</form>
+</div>
+    <div class="col-md-5">
+        <p></p>
+    </div>
+</div>
+</body>
+</html>
